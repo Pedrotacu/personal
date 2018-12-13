@@ -1,3 +1,112 @@
-body{background-color: #eeee;}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #eeee;
+}
 
-.carousel-inner > .item {min-height: 10px;}
+
+.search-box{
+		position: absolute;
+		top:50px;
+		left: 50px;
+		/*transform: translate(-50%,-50%);*/
+		/*background: #2f3640;*/
+		height: 40px;
+		border-radius: 40px;
+		padding: 10px;
+}
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+	background: white;
+}
+.search-btn{
+	color: #e84118;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+
+.search-txt{
+	border:none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+
+h1{
+	font-size:50px;
+	color: white;
+	margin-top: 30px;
+	margin-bottom:60px;
+}
+.col-md-5{
+	background: rgba(0.0.0.0.5);
+	margin-top: 40px;
+}
+.label{
+	font-size: 20px;
+	font-weight: normal;
+}
+.input-group{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.input-group-addon{
+	background: transparent;
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 1px solid white;
+	font-size: 18px;
+	color: gray;
+}
+.form-control{
+	background: transparent;
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 1px solid white;
+	padding: 15px;
+	color: white;
+	font-size: 21px;
+}
+input [type="checkbox"]{
+	height: 15px;
+	width: 15px;
+}
+small{
+	font: 18px;
+	color: white;
+		
+}
+p{
+	font-size: 18px;
+	color: white;
+		
+}
+.btn-default{
+	border-radius: 0px;
+	width:457px;
+	font-size: 20px;
+	margin-top:20px;
+	margin-bottom: 30px;
+}
+h2{
+	font-size: 30px;
+	color:white;
+	
+}

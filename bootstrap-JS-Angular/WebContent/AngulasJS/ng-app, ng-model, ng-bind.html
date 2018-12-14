@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ng-app, ng-model, ng-bind</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+</head>
+<body>
+
+<!-- I ng-app direttiva indica AngularJS che il <div> elemento è il proprietario di una AngularJS applicazione -->
+	<div ng-app="">
+
+<!-- La direttiva ng-model dice che tutto quello che inseriremo nella casella di testo farà parte di una var che si chiama "name" -->
+		<p>Name: <input type="text" ng-model="name"></p>
+
+<!-- Il ng-bind direttiva vincola il contenuto dell'elemento <p> alla variabile applicazione nome -->
+		<p ng-bind="name"></p>
+	</div>
+
+</body>
+</html>

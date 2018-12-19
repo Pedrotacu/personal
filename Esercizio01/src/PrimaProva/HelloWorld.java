@@ -14,7 +14,6 @@ public class HelloWorld {
 		//stampa a stringa ".."
 		System.out.println("5+5");
 		
-		
 	
 	}
 }

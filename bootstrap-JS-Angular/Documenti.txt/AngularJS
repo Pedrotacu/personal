@@ -25,3 +25,5 @@ Tag script da aggiungere a pagine web:
 	Z
 AngularJS è un framework javascript che velocizza di molto lo sviluppo di webapps.
 Grazie all'implementazione dei moduli , i progetti saranno facilmente modificabili.
+-	Il parametro [] nella definizione del modulo può essere utilizzato per definire i moduli dipendenti.Senza il parametro [], non stai creando un nuovo modulo,
+	ma recuperando uno esistente.

@@ -22,6 +22,6 @@ Tag script da aggiungere a pagine web:
 -	è comune nelle applicazioni AngularJS di mettere il modulo ed i controllori di file JavaScript.
 -	Si consiglia di caricare la libreria AngularJS nell'HEAD o all'inizio del BODY. Questo perchè le chiamate a angular.module possono
 	essere compilate solo dopo che la libreria è stata caricata.
-	
+	Z
 AngularJS è un framework javascript che velocizza di molto lo sviluppo di webapps.
 Grazie all'implementazione dei moduli , i progetti saranno facilmente modificabili.

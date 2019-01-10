@@ -5,7 +5,7 @@
 	}
 
 	.bg-image{
-		background: url("/MyCloset/WebContent/sfondo12.jpg");
+		background: url("C:/Users/Pedro/git/personal/MyCloset/WebContent/sfondo12.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -101,4 +101,10 @@
 		transition: 0.4s;
 		line-height: 40px;
 		width: 0px;
+	}
+	.copyright{
+		background-color:#706868;
+		text-align:center;
+		padding:10px;
+		margin-top:7px;
 	}

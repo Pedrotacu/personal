@@ -1,115 +1,45 @@
-	body{
-	margin: 0;
-	padding: 0;
-	background-color: #eeee;
-	}
-
-	.bg-image{
-		background: url("C:/Users/Pedro/git/personal/MyCloset/WebContent/sfondo12.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 100vh;
-		
-	}
-	.header{
-		position: fixed;
-		width: 100%;
-		height: 70px;
-	}
-	.sub-header{
-		position: relative;
-		width: 1200px;
-		height:70px;
-		margin: 0 auto;
+	body{ margin:0; padding:0; background-color:#eeee;}
 	
-	}
-	.sub-header .left-menu{
-		/*float: left;*/
-		position: left;
-		margin-left: 150px;
-	}
-	.sub-header .logo a{
-		position: absolute;
-		font-size: 40px;
-		left: 50%;
-		transform: translatex(-50%);
-		text-decoration: none;
-		color: #fff;
-		top: 40px;
-		font-family: "Roboto Slab", sans-serif;
-	}
-	.sub-header .right-menu{
-		position: left;
-		margin-left: 750px;
-	}
-	.sub-header ul li{
-		float: left;
-		list-style: none;
-		min-width: 100px;
-		height: 30px;
-		line-height: 100px;
-		margin: 20px 2px;
-	}
-	.sub-header ul li a{
-		display: block;
-		text-align: center;
-		border-radius: 3px;
-		font-family: "Roboto Condensed", sans-serif;
-		letter-spacing: 2px;
-		text-decoration: none;
-		color: #fff;
-		font-size: 16px;
-	}
-	.search-cont{
-		text-align:center;
-		padding:20px;
-		margin-top:0px;
-	}
-	.search-box{
-		position: relative;
-		bottom:20px;
-		right: 500px;
-		/*transform: translate(-50%,-50%);*/
-		/*height: 40px;*/
-		border-radius: 40px;
-		padding: 10px;
-	}
-	.search-box:hover > .search-txt{
-		width: 200px;
-		padding: 0 6px;
-	}
-	.search-box:hover > .search-btn{
-		background: white;
-	}
-	.search-btn{
-		color: #e84118;
-		float: right;
-		width: 40px;
-		height: 40px;
-		border-radius: 50%;
-		background: #2f3640;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		transition: 0.4s;
+	.bg-image{background:url("C:/Users/Pedro/git/personal/MyCloset/WebContent/sfondo12.jpg"); background-position:center; background-repeat:no-repeat; background-size:cover; height:100vh;}
+	
+	
+	.header{position:relative; width:100%; height:70px;}
+	.sub-header{position:relative; width:1200px; height:70px; margin:0 auto;}
+	.sub-header .left-menu{position:left; margin-left:139px; }
+	.sub-header .logo a{position:absolute; font-size:40px; left:50%; transform:translatex(-50%); text-decoration:none; color:#fff; top:40px; font-family:"Roboto Slab", sans-serif;}
+	.sub-header .right-menu{position:right; margin-left:780px;}
+	.sub-header ul li{float:left; list-style:none; min-width:120px; line-height:100px; margin:20px 2px;}
+	.sub-header ul li a{ text-align:center; font-family:"Roboto Condensed", sans-serif; letter-spacing:2px; text-decoration:none;color:#fff; font-size:22px;}
+	
+	.header__icon-bar {display:block; float:right; padding:20px; display:none;}
+	.header__icon-bar span{display:block; height:3px; width:30px; background:#fff; margin-bottom:5px;}	
+	
+	/*----------------------
+	Tablet
+	------------------------*/
+	@media (max-width: 998px){
+
 	}
 
-	.search-txt{
-		border:none;
-		background: none;
-		outline: none;
-		float: right;
-		padding: 0;
-		color: black;
-		font-size: 16px;
-		transition: 0.4s;
-		line-height: 40px;
-		width: 0px;
+	/*----------------------
+	Smartphone
+	------------------------*/
+	@media (max-width: 767px){
+		.header__icon-bar{display:block;}
+		.header{width:100%; height:0px; overflow: hidden;}
+		.is-open{height: 300px; overflow: auto;}
+
 	}
-	.copyright{
-		background-color:#706868;
-		text-align:center;
-		padding:10px;
-		margin-top:7px;
-	}
+
+
+
+	.search-cont{text-align:center; padding:20px; margin-top:0px;}
+	.search-box{position:relative; bottom:20px; right:500px; /*transform: translate(-50%,-50%);*//*height: 40px;*/ border-radius:40px; padding:10px;}
+	.search-box:hover > .search-txt{width:200px; padding:0 6px;}
+	.search-box:hover > .search-btn{background:white;}
+	.search-btn{color:#e84118; float:right; width:40px; height:40px; border-radius:50%; background:#2f3640; display:flex; justify-content:center; align-items:center; transition:0.4s;}
+	.search-txt{border:none; background:none; outline:none; float:right; padding:0; color: black; font-size:16px; transition:0.4s; line-height:40px; width:0px;}
+	
+	
+	
+	.copyright{background-color:#706868; text-align:center; padding:10px; margin-top:7px;}

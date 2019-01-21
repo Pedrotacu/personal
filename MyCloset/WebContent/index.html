@@ -33,7 +33,7 @@
 					</div>
 					<ul class="right-menu">
 						<li><a href="">Prototipo</a></li>
-						<li><a href="">F.A.Q.</a></li>
+						<li><a href="">Login</a></li>
 					</ul>
 				</div>
 			</div>
@@ -108,7 +108,7 @@
 				</div>
 				<div class="col-sm" style="background-color:darkseagreen; border-radius: 20px;">
 					<h4 style= "text-transform: uppercase; text-align: center;">Che cos'è?</h4>
-						<p style="text-align: center;">
+						<p style="text-align: center; margin-bottom:300px">
 							MyCloset è un'app per Android che può essere scaricata gratuitamente ed è stata creata pensando ...
 							Con l'app puoi interagire facilmente con il tuo armadio in casa utilizzando gli strumenti per ordinare... 
 							rapidamente
@@ -123,18 +123,47 @@
 						</p>
 				</div>
 			</div>
-			<div class="copyright">&#169 copyright MyCloset.com </div>
-			
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-			<script>
-				$(document).ready(function(){
-
-				$(".header__icon-bar").click(function(e){
-
-				$(".header").toggleClass('is-open');
-					e.preventDefault();
-					});
-				});
-			</script>
 	</body>
+
+	<footer style="margin-top: 50px">
+			<nav class="nav">
+				<ul>
+					<li>
+						<ul>
+							<li><a href="#">Mycloset</a></li>
+							<li><a href="#">Features</a></li>
+							<li><a href="#">Download</a></li>
+							<li><a href="#">My Closet Web</a></li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li><a href="#">Download</a></li>
+							<li><a href="#">Android</a></li>
+							<li><a href="#">Windows Phone</a></li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li><a href="#">Help</a></li>
+							<li><a href="#">F.A.Q.</a></li>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div class="footer">&#169 copyright MyCloset.com </div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+
+		$(".header__icon-bar").click(function(e){
+
+		$(".header").toggleClass('is-open');
+			e.preventDefault();
+			});
+		});
+	</script>
 </html>

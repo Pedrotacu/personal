@@ -25,8 +25,15 @@
 	.details{color: ivory; position: relative; top: 40px; text-align: justify; letter-spacing: 3px;}
 
 	.row{position: relative; width: 70%; top: 30px; left: 15%;  text-align: justify; letter-spacing: 3px;}
+
+	.nav{background-color: darkslategray; height:200px; width: 100%; position: relative;}
+	.nav ul{list-style: none;  padding: 15px; width: 100%; max-width: 1200px;}
+	.nav ul li{position: relative; float: left; width: 33.3%; text-align: center; padding-bottom: 15px; padding-top: 3px;}
+	.nav ul li li{position: relative; float:none; width: 100%; border: none;}
+	.nav ul ul a{text-decoration: none; color: white; padding: 15px 25px;}
 	
-	.copyright{background-color:slategray; text-align:center; padding:10px; margin-top:7px;}
+	
+	.footer{padding:30px;position: relative;left: 0;bottom: 0;width: 100%;background-color: slategray;color: white;text-align: center;}
 	
 	/*----------------------
 	Tablet
@@ -48,10 +55,11 @@
 	
 
 	/*----------seconda pagina----------*/
-	.header__menu{margin: auto; width: 60%; border: 3px solid #000; padding: 3%;}
-	.header__menu__item{display: inline-block;}
-	.header__menu__item a{color:#fff; padding: 65px;}
-	.header__menu__item a:hover{background: #000; padding: 65px;}
+	
+	.header__menu{margin: 50%; width: 60%; border: 3px solid #000; padding: 3%;}
+	.header__menu__item{display: inline-block; margin-left:90px}
+	.header__menu__item a{color:black; padding: 15px;}
+	.header__menu__item a:hover{background: #000; padding: 15px;}
 
-	.copyright{background-color:slategray; text-align:center; padding:30px; margin-top:70px;}
+	
 

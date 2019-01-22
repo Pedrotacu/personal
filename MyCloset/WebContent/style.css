@@ -21,13 +21,18 @@
 	.search-btn{color:#e84118; float:right; width:40px; height:40px; border-radius:50%; background:#2f3640; display:flex; justify-content:center; align-items:center; transition:0.4s;}
 	.search-txt{border:none; background:none; outline:none; float:right; padding:0; color: white; font-size:16px; transition:0.4s; line-height:40px; width:0px;}
 	
-	.container{position: relative; top: 30px;}
-	.details{color: ivory; position: relative; top: 40px; text-align: justify; letter-spacing: 3px;}
+	.login{text-align: center;}
+	.bla{display:block;}
+	.login{width:100%; height:0px; overflow: hidden;}
+	.is-open{height: 300px; overflow: auto;}
+
+	#myCarousel{position: relative;left: 30%; max-width:500px; max-height: 400px; top:50px;}
+	.details{color: ivory; position: relative; top: 90px; letter-spacing: 3px;  margin: 7px;margin-left: 412px;margin-right: 450px;}
 
 	.row{position: relative; width: 70%; top: 30px; left: 15%;  text-align: justify; letter-spacing: 3px;}
 
 	.nav{background-color: darkslategray; height:200px; width: 100%; position: relative;}
-	.nav ul{list-style: none;  padding: 15px; width: 100%; max-width: 1200px;}
+	.nav ul{list-style: none;  padding: 16px; width: 100%;}
 	.nav ul li{position: relative; float: left; width: 33.3%; text-align: center; padding-bottom: 15px; padding-top: 3px;}
 	.nav ul li li{position: relative; float:none; width: 100%; border: none;}
 	.nav ul ul a{text-decoration: none; color: white; padding: 15px 25px;}

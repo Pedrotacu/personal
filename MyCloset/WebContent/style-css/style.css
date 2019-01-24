@@ -15,7 +15,6 @@
 	.header__icon-bar {display:block; float:right; padding:20px; display:none;}
 	.header__icon-bar span{display:block; height:3px; width:30px; background:#fff; margin-bottom:5px;}
 /**/
-
 	.search-box{position: absolute;top: 15%; left:5%;background:#2f3640; border-radius:40px; padding:2px;}
 	.search-box:hover > .search-txt{width:200px; padding:0 6px;}
 	.search-box:hover > .search-btn{background:white;}
@@ -43,10 +42,7 @@
 	}
 	.fa{margin-right: 5px;}
 
-
 	.row{position: relative; width: 70%; top: 30px; left: 15%;  text-align: justify; letter-spacing: 3px; z-index: -1;}
-
-	.footer{padding:30px;position: relative;left: 0;bottom: 0;width: 100%;background-color: slategray;color: white;text-align: center;}
 
 	.nav{background-color: darkslategray; height:200px; width: 100%; position: relative;}
 	.nav ul{list-style: none;  padding: 16px; width: 100%;}
@@ -54,6 +50,7 @@
 	.nav ul li li{position: relative; float:none; width: 100%; border: none;}
 	.nav ul ul a{text-decoration: none; color: white; padding: 15px 25px;}
 
+	.copyright{padding:30px;position: relative;left: 0;bottom: 0;width: 100%;background-color: slategray;color: white;text-align: center;}
 
 	
 	/*----------------------

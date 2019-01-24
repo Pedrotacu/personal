@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Mycloset</title>
-	<meta charset="utf-8" />
-	<meta charset="ISO-8859-1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+	<!--<meta charset="ISO-8859-1">-->
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+	<!--SERVE PER IL RESPONSIVE PER SMARTPHONE E TABLET-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" href="flexslider.css" type="text/css">-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- Il normalize (css di reset) (cdn) serve per avere più performance-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+	<!-- IL NORMALIZE (CSS DI RESET) (CDN) SERVE PER AVERE PIU PERFORMANCE-->
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">-->
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	<!--ICONA DEL SEARCH-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" href="C:\Users\Pedro\git\personal\MyCloset\WebContent\style-css\style.css">
+	<!--ELSE BACO DI RICHIESTA (CHROME)-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
+	<!--<script src="js/jquery.flexslider.js"></script>-->
 </head>
-
+<!---->
 	<body>
 		<header class="bg-image">
 			<a href="" class="header__icon-bar">
@@ -37,11 +47,41 @@
 				</div>
 			</div>
 			<div class="search-box">
-				<input class="search-txt" type="text" name="" placeholder="Type to search">
+				<input class="search-txt" type="DA CHIEDERE AL PRO COLLEONI" name="" placeholder="Type to search">
 					<a class="search-btn" href="#">
 						<i class="fas fa-search"></i>
 					</a>
+			</div>
 		</header>
+
+<nav class="nav2">
+	<section class="nav-container">
+		<aside class="menu">
+			<div class="menu-content">
+				<i class="fa fa-unlock-alt"></i><a href="" id="Login">login</a> | <i class="fa fa-unlock-alt"></i><a href="">Register</a>
+			</div>
+			<div class="arrow-up"></div>
+		</aside>
+		<div class="login-form">
+			<form>
+				<label>Username</label>
+					<div>
+						<input type="text" placeholder="Username" required/>
+					</div>
+				<label>Password</label>
+					<div>
+						<input type="password" placeholder="Password" required/>
+					</div>
+					<div>
+						<input type="submit" value="Log In"/>
+					</div>
+					<div>
+						<a href="" style="text-decoration:none;position:relative; top:20px;font-size:16px;color:gray;">Lost your password?</a>
+					</div>
+			</form>
+		</div>
+	</section>
+</nav>
 
 			<div class="row">  
 				<div class="col-sm" style="background-color:lightblue; border-radius: 20px;">
@@ -58,13 +98,12 @@
 						</p>
 				</div>
 				<div class="col-sm">
-					foto
+					<h4>foto</h4>
 				</div>
 			</div>
 			<div class="row">
 	 			<div class="col-sm">
-					<h4>foto
-					</h4>
+					<h4>foto</h4>
 				</div>
 				<div class="col-sm" style="background-color:darkseagreen; border-radius: 20px;">
 					<h4 style= "text-transform: uppercase; text-align: center;">Che cos'è?</h4>
@@ -114,9 +153,8 @@
 			</nav>
 			<div class="footer">&#169 copyright MyCloset.com </div>
 	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script>
+
+	<script type="text/javascript">
 		$(document).ready(function(){
 
 		$(".header__icon-bar").click(function(e){
@@ -125,5 +163,18 @@
 			e.preventDefault();
 			});
 		});
+		
+	
+		$(document).ready(function(){
+			var arrow = $(".arrow-up");
+			var form = $(".login-form");
+			var status = false;
+			$("#login").click(function(event){
+				event.preventDefault();
+				alert(0);
+			})
+		
+		})
+
 	</script>
 </html>

@@ -2,12 +2,14 @@
 body{ margin:0; padding:0; background-color:white;}
 
 .header{position: relative; width:100%; top:0px;}
-.sub-header{position:relative; width:1200px; height:100px; margin:0 auto;}
-.sub-header .left-menu{position:absolute; margin-left:139px; top: 0px;}
-.sub-header .logo a{position:absolute; font-size:40px; left:50%; transform:translatex(-50%); text-decoration:none; color:black; top:20px; font-family:"Roboto Slab", sans-serif;}
-.sub-header .right-menu{position:right; margin-left:870px; top:0px;}
-.sub-header ul li{float:left; list-style:none; min-width:120px; line-height:100px; margin:2px;}
-.sub-header ul li a{ text-align:center; font-family:"Roboto Condensed", sans-serif; letter-spacing:2px; text-decoration:none;color:black; font-size:22px;}
+	.sub-header{position:relative; width:1000px; height:100px; margin:0 auto;}
+	.sub-header .left-menu{float:left;position:left; margin-left:0px;}
+	.sub-header .center-menu{float:none; position:absolute; left:50%; transform:translatex(-50%)translateY(-50%); text-decoration:none;top:50%;}
+	.sub-header .right-menu{float: right;position:right; margin-right:0px;}
+	.sub-header ul li{list-style:none; min-width:100px; line-height:100px;text-align:center;}
+	.sub-header ul li a{font-family:"Roboto Condensed", sans-serif; letter-spacing:2px; text-decoration:none;color:black; font-size:22px;}
+	
+	.lista__menu{display: inline-block;}
 
 *{margin:0;padding:0;font-family: sans-serif;}
 .team-section{text-align: center;background:gray;padding: 60px;}

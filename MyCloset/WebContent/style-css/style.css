@@ -4,7 +4,7 @@
 	.bg-image{background:url("C:/Users/Pedro/git/personal/MyCloset/WebContent/image/sfondo12.jpg"); background-position:center; background-repeat:no-repeat; background-size:cover;width:auto; height:80vh;}
 	
 	.header{position: relative; width:100%; top:0px;}
-	.sub-header{position:relative; width:1000px; height:100px; margin:0 auto;}
+	.sub-header{position:relative; width:1000px; height:100px; margin:0 auto;left:-2%;}
 	.sub-header .left-menu{float:left;position:left; margin-left:0px;}
 	.sub-header .center-menu{float:none; position:absolute; left:50%; transform:translatex(-50%)translateY(-50%); text-decoration:none;top:50%;}
 	.sub-header .right-menu{float: right;position:right; margin-right:0px;}

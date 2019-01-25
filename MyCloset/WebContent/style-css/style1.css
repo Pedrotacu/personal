@@ -2,14 +2,14 @@
 body{ margin:0; padding:0; background-color:white;}
 
 .header{position: relative; width:100%; top:0px;}
-	.sub-header{position:relative; width:1000px; height:100px; margin:0 auto;}
-	.sub-header .left-menu{float:left;position:left; margin-left:0px;}
-	.sub-header .center-menu{float:none; position:absolute; left:50%; transform:translatex(-50%)translateY(-50%); text-decoration:none;top:50%;}
-	.sub-header .right-menu{float: right;position:right; margin-right:0px;}
-	.sub-header ul li{list-style:none; min-width:100px; line-height:100px;text-align:center;}
-	.sub-header ul li a{font-family:"Roboto Condensed", sans-serif; letter-spacing:2px; text-decoration:none;color:black; font-size:22px;}
+.sub-header{position:relative; width:1000px; height:100px; margin:0 auto;}
+.sub-header .left-menu{float:left;position:left; margin-left:0px;}
+.sub-header .center-menu{float:none; position:absolute; left:50%; transform:translatex(-50%)translateY(-50%); text-decoration:none;top:50%;}
+.sub-header .right-menu{float: right;position:right; margin-right:0px;}
+.sub-header ul li{list-style:none; min-width:100px; line-height:100px;text-align:center;}
+.sub-header ul li a{font-family:"Roboto Condensed", sans-serif; letter-spacing:2px; text-decoration:none;color:black; font-size:22px;}
 	
-	.lista__menu{display: inline-block;}
+.lista__menu{display: inline-block;}
 
 *{margin:0;padding:0;font-family: sans-serif;}
 .team-section{text-align: center;background:gray;padding: 60px;}
@@ -30,4 +30,4 @@ body{ margin:0; padding:0; background-color:white;}
 .nav ul ul a{text-decoration: none; color: white; padding: 15px 25px;}
 	
 	
-.footer{padding:30px;position: relative;left: 0;bottom: 0;width: 100%;background-color: slategray;color: white;text-align: center;}
+.copyright{padding:30px;position: relative;left: 0;bottom: 0;width: 100%;background-color: slategray;color: white;text-align: center;}

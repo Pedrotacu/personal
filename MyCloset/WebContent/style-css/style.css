@@ -1,5 +1,5 @@
 	/*----------home----------*/
-	body{ margin:0; padding:0;position:relative; background-color:cadetblue;width: fit-content;}
+	body{ margin:0; padding:0;position:relative;background: rgb(228, 226, 226);;width: fit-content;}
 	 
 	/*.bg-image{background:url("C:/Users/Pedro/git/personal/MyCloset/WebContent/imagenes/sfondo12.jpg"); background-position:center; background-repeat:no-repeat; background-size:cover;width:auto; height:80vh;}
 	
@@ -16,7 +16,6 @@
 	.header__icon-bar {display:block; float:right; padding:20px; display:none;}
 	.header__icon-bar span{display:block; height:3px; width:30px; background:#fff; margin-bottom:5px;}
 	*/
-	.navbar-nav{text-align: center;}
 
 	.search-box{position: absolute;top: 15%; left:5%;background:#2f3640; border-radius:40px; padding:2px;}
 	.search-box:hover > .search-txt{width:200px; padding:0 6px;}
@@ -49,10 +48,10 @@
 
 	
 
-	.nav{background-color:cadetblue; height:200px; width: 100%; position: relative;border-top: 1px solid #333;}
+	.nav{background: rgb(228, 226, 226);; height:200px; width: 100%; position: relative;border-top: 1px solid #333;}
 	.nav ul{list-style: none;  padding: 16px; width: 100%;}
 	.nav ul li{position: relative; float: left; width: 33.3%; text-align: center; padding-bottom: 15px; padding-top: 3px;}
 	.nav ul li li{position: relative; float:none; width: 100%; border: none;}
 	.nav ul ul a{text-decoration: none; color: black; padding: 15px 25px;}
 
-	.copyright{padding:30px;position: relative;left: 0;bottom: 0;width: 100%;background-color:cadetblue;color: black;text-align: center;border-top: 1px solid #333;}
+	.copyright{padding:30px;position: relative;left: 0;bottom: 0;width: 100%;background: rgb(228, 226, 226);color: black;text-align: center;border-top: 1px solid #333;}

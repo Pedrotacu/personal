@@ -1,5 +1,5 @@
 body{background-image:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("C:/Users/Pedro/git/personal/MyCloset/WebContent/image/moda-registration.jpg");
+    /*linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),*/url("C:/Users/Pedro/git/personal/MyCloset/WebContent/imagenes/moda-registration.jpg");
     margin:0;
     padding:0;
     height:100vh;
@@ -44,4 +44,5 @@ body{background-image:
     cursor:pointer;
 }
 .form p{color:white; text-decoration: none; text-transform: uppercase; text-align: center; font-size: 80%;}
+.form p a{color:white; text-decoration: none; text-transform: uppercase; text-align: center; font-size: 100%;}
 

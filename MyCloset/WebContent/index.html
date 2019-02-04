@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -24,20 +25,22 @@
 	<!-- <link rel="stylesheet" href="style-css\flexslider.css" type="text/css"> -->
 	<link rel="stylesheet" href="style-css\style.css">
 </head>
+
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">My Closet</a>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="su">
+			<a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" style="width: 35px; position:relative;left:100px;"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
 			 aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="navbar-nav">
+				<div class="navbar-nav" style="padding-left:10%;">
 					<a class="nav-item nav-link" href="seconda.html">Brand</a>
-					<a class="nav-item nav-link" href="#">Servizi</a>
 					<a class="nav-item nav-link" href="prototipo.html">Prototipo</a>
 					<a class="nav-item nav-link" href="#">F.a.q.</a>
+					<a class="nav-item nav-link" href="download.html">Download</a>
+					
 				</div>
 			</div>
 		</nav>
@@ -107,10 +110,13 @@
 			</div>
 		</section>
 	</nav>
-	<div class="row">
-		<div class="col-sm" style="background-color:lightblue; border-radius: 20px;">
-			<h4 style="text-transform: uppercase; text-align: center;">MyCloset</h4>
-			<p style="text-align: center;">
+	<div class="row closetMainRow">
+		<div class="col-sm" style="background-color:lightblue;">
+			<div style="position:relative;top:20px;">
+				<h4>Closet</h4>
+			</div>
+			<div style="position: relative;top:40px;"><img src="imagenes/closet.png" style="width: 250px;"></div>
+			<p style="position: relative;top:90px;width: 80%;line-height: 25px;">
 				MyCloset è un'app per Android che può essere scaricata gratuitamente ed è stata creata pensando
 				Con l'app puoi interagire facilmente con il tuo armadio in casa utilizzando gli strumenti per ordinare
 				rapidamente
@@ -121,21 +127,10 @@
 				i propri vestiti.i.
 			</p>
 		</div>
-		<div class="col-sm">
-			<h4>foto</h4>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm">
-			<h4>foto</h4>
-		</div>
-		<div class="col-sm" style="background-color:darkseagreen; border-radius: 20px;">
-			<h4 style="text-transform: uppercase; text-align: center;">Che cos'è?</h4>
-			<p style="text-align: center;">
-				MyCloset è un'app per Android che può essere scaricata gratuitamente ed è stata creata pensando ...
-				Con l'app puoi interagire facilmente con il tuo armadio in casa utilizzando gli strumenti per ordinare...
-				rapidamente
-				i propri vestiti.
+		<div class="col-sm" style="background-color:#c0c0c0;">
+			<h4 style="position:relative;top:20px;">Accesso</h4>
+			<div style="position: relative;top:40px;"><img src="imagenes/accesso.png" style="width: 250px;"></div>
+			<p style="position: relative;top:90px;width: 80%;line-height: 25px;">
 				MyCloset è un'app per Android che può essere scaricata gratuitamente ed è stata creata pensando
 				Con l'app puoi interagire facilmente con il tuo armadio in casa utilizzando gli strumenti per ordinare
 				rapidamente
@@ -143,10 +138,27 @@
 				MyCloset è un'app per Android che può essere scaricata gratuitamente ed è stata creata pensando
 				Con l'app puoi interagire facilmente con il tuo armadio in casa utilizzando gli strumenti per ordinare
 				rapidamente
+				i propri vestiti.i.
 			</p>
 		</div>
 	</div>
 
+	<div class="row closetMainRow2">
+		<div class="col-sm" style="background-color:rgb(228, 226, 226);">
+			<p style="position: relative;top:40%;width: 100%;line-height: 25px;z-index: +1; left:24%;">
+				MyCloset è un'app per Android che può essere scaricata gratuitamente ed è stata creata pensando
+				Con l'app puoi interagire facilmente con il tuo armadio in casa utilizzando gli strumenti per ordinare
+				rapidamente
+				i propri vestiti.
+				MyCloset è un'app per Android che può essere scaricata gratuitamente ed è stata creata pensando
+			</p>
+		</div>
+		<div class="col-sm" style="background-color:rgb(228, 226, 226);padding-right: 0%;">
+			<div style="position: relative;top:40px;">
+				<img src="imagenes/hanger.png" class="img">
+			</div>
+		</div>
+	</div>
 </body>
 
 <footer style="margin-top: 50px">
@@ -163,14 +175,15 @@
 				<ul>
 					<li><a href="download.html">Download</a></li>
 					<li><a href="#">Android</a></li>
-					<li><a href="#">Windows Phone</a></li>
+					<li><a href="#su">Torna su</a></li>
+
 				</ul>
 			</li>
 			<li>
 				<ul>
 					<li><a href="#">F.A.Q.</a></li>
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Facebook</a></li>
+					<li><a href="https://www.twitter.com/myclose58459259">Twitter</a></li>
+					<li><a href="https://www.facebook.com/my.closet.1257">Facebook</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -189,30 +202,30 @@
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
 <script type="text/javascript" charset="utf-8">
 	var arrow;
-	var form ;
+	var form;
 	var status = false;
 
 	function qs(key) {
 		key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
-		var match = location.search.match(new RegExp("[?&]"+key+"=([^&]+)(&|$)"));
+		var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
 		return match && decodeURIComponent(match[1].replace(/\+/g, " "));
 	}
 	function showLogin(status) {
 		if (status == 'false') {
-				arrow.fadeIn();
-				form.fadeIn();
-				status = true;
-			} else {
-				arrow.fadeOut();
-				form.fadeOut();
-				status = false;
-			};
+			arrow.fadeIn();
+			form.fadeIn();
+			status = true;
+		} else {
+			arrow.fadeOut();
+			form.fadeOut();
+			status = false;
+		};
 	}
 	$(() => {
 		arrow = $(".arrow-up");
 		form = $(".login-form");
 		let openLogin = qs('openLogin');
-		if(openLogin) {
+		if (openLogin) {
 			showLogin(false); // accendo il login
 		}
 		$("#login").click(function (e) {
@@ -222,4 +235,5 @@
 		});
 	});
 </script>
+
 </html>

@@ -204,22 +204,22 @@
 <script type="text/javascript" charset="utf-8">
 	var arrow;
 	var form;
-	var status = false;
+	var status = 'false';
 
 	function qs(key) {
 		key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
 		var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
 		return match && decodeURIComponent(match[1].replace(/\+/g, " "));
 	}
-	function showLogin(status) {
-		if (status == 'false') {
+	function showLogin(s) {
+		if (s == 'false') {
 			arrow.fadeIn();
 			form.fadeIn();
-			status = true;
+			this.status = 'true';
 		} else {
 			arrow.fadeOut();
 			form.fadeOut();
-			status = false;
+			this.status = 'false';
 		};
 	}
 	$(() => {
@@ -227,7 +227,7 @@
 		form = $(".login-form");
 		let openLogin = qs('openLogin');
 		if (openLogin) {
-			showLogin(false); // accendo il login
+			showLogin('false'); // accendo il login
 		}
 		$("#login").click(function (e) {
 			e.preventDefault();

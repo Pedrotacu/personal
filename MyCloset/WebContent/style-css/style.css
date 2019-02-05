@@ -1,31 +1,21 @@
 	/*----------home----------*/
-	body{ margin:0; padding:0;position:relative;background: rgb(228, 226, 226);width: fit-content;}
-	 
-	/*.bg-image{background:url("C:/Users/Pedro/git/personal/MyCloset/WebContent/imagenes/sfondo12.jpg"); background-position:center; background-repeat:no-repeat; background-size:cover;width:auto; height:80vh;}
 	
-	.header{position: relative; width:100%; top:0px;}
-	.sub-header{position:relative; width:1000px; height:100px; margin:0 auto;left:-2%;}
-	.sub-header .left-menu{float:left;position:left; margin-left:0px;}
-	.sub-header .center-menu{float:none; position:absolute; left:50%; transform:translatex(-50%)translateY(-50%); text-decoration:none;top:50%;}
-	.sub-header .right-menu{float: right;position:right; margin-right:0px;}
-	.sub-header ul li{list-style:none; min-width:100px; line-height:100px;text-align:center;}
-	.sub-header ul li a{font-family:"Roboto Condensed", sans-serif; letter-spacing:2px; text-decoration:none;color:#fff; font-size:22px;}
-	.lista__menu{display: inline-block;}
-
-	Sandwich
-	.header__icon-bar {display:block; float:right; padding:20px; display:none;}
-	.header__icon-bar span{display:block; height:3px; width:30px; background:#fff; margin-bottom:5px;}
-	*/
-
-	.search-box{position: absolute;top: 15%; left:5%;background:#2f3640; border-radius:40px; padding:2px;}
+	body{ margin:0; padding:0;position:relative;background: rgb(228, 226, 226);width: fit-content;}
+	
+	/*---------search------*/
+	
+	.search-box{position: absolute;top: 15%; left:5%;background:white; border-radius:40px; padding:2px;}
 	.search-box:hover > .search-txt{width:200px; padding:0 6px;}
 	.search-box:hover > .search-btn{background:white;}
 	.search-btn{color:#e84118; float:right; width:40px; height:40px; border-radius:50%; background:black; display:flex; justify-content:center; align-items:center; transition:0.4s;}
 	.search-txt{border:none; background:none; outline:none; float:right; padding:0; color: white; font-size:16px; transition:0.4s; line-height:40px; width:0px;}
-
+	
+	/*---------secondo nav------*/
+	
 	.secondo-nav{width:100%; height: 65px;position:relative; background: black; box-shadow: 0px 2px 8px 0px #333;}
 	.nav-container{width:1000px;margin:0 auto;position:relative;background:black}
 	.nav-container>.logo{width: 200px; height:65px; float:left;}
+	/*form*/
 	.menu{width: 100%; height: 65px; background:black;}
 	.menu>.menu-content{width: 200px; height: 65px; float:right;font-family: sans-serif,Arial; font-size: 16px;font-weight: bold;letter-spacing: -0.05em; position:relative;color:white;line-height:65px;}
 	.menu>.menu-content>a{color:white;text-decoration:none;}
@@ -43,6 +33,8 @@
 		background:#0a4b33;
 	}
 	.fa{margin-right: 5px;}
+	
+	/*---------corpo del sito------*/
 
 	.row{position: relative; width: 100%; top: 30px;height: 835px; left: 0%;right: 0%; text-align: center; z-index: -1;}
 	.closetMainRow { margin-right: 0px;  margin-left: 0px;}
@@ -51,12 +43,15 @@
 	.img{position:relative; float:right; width: 90%;}
 
 	
-
+	/*---------terzo nav------*/
+	
 	.nav{background: rgb(49, 43, 43); height:200px; width: 100%; position: relative;border-top: 1px solid #333;}
 	.nav ul{list-style: none;  padding: 16px; width: 100%;}
 	.nav ul li{position: relative; float: left; width: 33.3%; text-align: center; padding-bottom: 15px; padding-top: 3px;}
 	.nav ul li li{position: relative; float:none; width: 100%; border: none;}
 	.nav ul ul a{ color: white; padding: 15px 25px;}
+	
+	/*---------copyright------*/
 
 	.copyright{padding:30px;position: relative;left: 0;bottom: 0;width: 100%;background: rgb(49, 43, 43);color: white;text-align: center;border-top: 1px solid #333;}
 
